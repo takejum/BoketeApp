@@ -1,0 +1,6 @@
+framework module Pods_BoketeApp {
+  umbrella header "Pods-BoketeApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

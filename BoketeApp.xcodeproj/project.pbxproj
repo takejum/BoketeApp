@@ -3,19 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F8D3F6E2445CD84003C980F /* iPhone8.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D3F6D2445CD84003C980F /* iPhone8.storyboard */; };
+		4F8D3F702445CF39003C980F /* iPhone8Plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D3F6F2445CF39003C980F /* iPhone8Plus.storyboard */; };
+		4F8D3F722445D011003C980F /* iPhone11Pro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D3F712445D011003C980F /* iPhone11Pro.storyboard */; };
+		4F8D3F742445D13B003C980F /* iPhoneProMax.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D3F732445D13B003C980F /* iPhoneProMax.storyboard */; };
 		4FCEB894243F2CF0006CD623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCEB893243F2CF0006CD623 /* AppDelegate.swift */; };
 		4FCEB896243F2CF0006CD623 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCEB895243F2CF0006CD623 /* SceneDelegate.swift */; };
 		4FCEB898243F2CF0006CD623 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCEB897243F2CF0006CD623 /* ViewController.swift */; };
 		4FCEB89B243F2CF0006CD623 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FCEB899243F2CF0006CD623 /* Main.storyboard */; };
 		4FCEB89D243F2CF0006CD623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FCEB89C243F2CF0006CD623 /* Assets.xcassets */; };
 		4FCEB8A0243F2CF0006CD623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FCEB89E243F2CF0006CD623 /* LaunchScreen.storyboard */; };
+		4FCEB8A82440AEF5006CD623 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCEB8A72440AEF5006CD623 /* ShareViewController.swift */; };
+		C63460D7CAB6EADA38BD4B07 /* Pods_BoketeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 951F8D78DE2D558641A30181 /* Pods_BoketeApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F8D3F6D2445CD84003C980F /* iPhone8.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhone8.storyboard; sourceTree = "<group>"; };
+		4F8D3F6F2445CF39003C980F /* iPhone8Plus.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhone8Plus.storyboard; sourceTree = "<group>"; };
+		4F8D3F712445D011003C980F /* iPhone11Pro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhone11Pro.storyboard; sourceTree = "<group>"; };
+		4F8D3F732445D13B003C980F /* iPhoneProMax.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhoneProMax.storyboard; sourceTree = "<group>"; };
 		4FCEB890243F2CF0006CD623 /* BoketeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoketeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FCEB893243F2CF0006CD623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FCEB895243F2CF0006CD623 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,10 @@
 		4FCEB89C243F2CF0006CD623 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FCEB89F243F2CF0006CD623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FCEB8A1243F2CF0006CD623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FCEB8A72440AEF5006CD623 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		951F8D78DE2D558641A30181 /* Pods_BoketeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoketeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F34A1DC8A882CCE8A310B0 /* Pods-BoketeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoketeApp.release.xcconfig"; path = "Target Support Files/Pods-BoketeApp/Pods-BoketeApp.release.xcconfig"; sourceTree = "<group>"; };
+		B4ED24CEA24D1BC50CDA4DC5 /* Pods-BoketeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoketeApp.debug.xcconfig"; path = "Target Support Files/Pods-BoketeApp/Pods-BoketeApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C63460D7CAB6EADA38BD4B07 /* Pods_BoketeApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17450DC10A9458C6BA7D03DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				951F8D78DE2D558641A30181 /* Pods_BoketeApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4FCEB887243F2CF0006CD623 = {
 			isa = PBXGroup;
 			children = (
 				4FCEB892243F2CF0006CD623 /* BoketeApp */,
 				4FCEB891243F2CF0006CD623 /* Products */,
+				D2214763FEC831B87386D58C /* Pods */,
+				17450DC10A9458C6BA7D03DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +84,26 @@
 				4FCEB893243F2CF0006CD623 /* AppDelegate.swift */,
 				4FCEB895243F2CF0006CD623 /* SceneDelegate.swift */,
 				4FCEB897243F2CF0006CD623 /* ViewController.swift */,
+				4FCEB8A72440AEF5006CD623 /* ShareViewController.swift */,
+				4F8D3F6D2445CD84003C980F /* iPhone8.storyboard */,
+				4F8D3F6F2445CF39003C980F /* iPhone8Plus.storyboard */,
 				4FCEB899243F2CF0006CD623 /* Main.storyboard */,
+				4F8D3F712445D011003C980F /* iPhone11Pro.storyboard */,
+				4F8D3F732445D13B003C980F /* iPhoneProMax.storyboard */,
 				4FCEB89C243F2CF0006CD623 /* Assets.xcassets */,
 				4FCEB89E243F2CF0006CD623 /* LaunchScreen.storyboard */,
 				4FCEB8A1243F2CF0006CD623 /* Info.plist */,
 			);
 			path = BoketeApp;
+			sourceTree = "<group>";
+		};
+		D2214763FEC831B87386D58C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4ED24CEA24D1BC50CDA4DC5 /* Pods-BoketeApp.debug.xcconfig */,
+				A4F34A1DC8A882CCE8A310B0 /* Pods-BoketeApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FCEB8A4243F2CF0006CD623 /* Build configuration list for PBXNativeTarget "BoketeApp" */;
 			buildPhases = (
+				82C30CDBA3FD79FD9C368855 /* [CP] Check Pods Manifest.lock */,
 				4FCEB88C243F2CF0006CD623 /* Sources */,
 				4FCEB88D243F2CF0006CD623 /* Frameworks */,
 				4FCEB88E243F2CF0006CD623 /* Resources */,
+				BEBA169AD47840C5796D80F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,19 +166,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F8D3F6E2445CD84003C980F /* iPhone8.storyboard in Resources */,
+				4F8D3F722445D011003C980F /* iPhone11Pro.storyboard in Resources */,
 				4FCEB8A0243F2CF0006CD623 /* LaunchScreen.storyboard in Resources */,
 				4FCEB89D243F2CF0006CD623 /* Assets.xcassets in Resources */,
+				4F8D3F742445D13B003C980F /* iPhoneProMax.storyboard in Resources */,
+				4F8D3F702445CF39003C980F /* iPhone8Plus.storyboard in Resources */,
 				4FCEB89B243F2CF0006CD623 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		82C30CDBA3FD79FD9C368855 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoketeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEBA169AD47840C5796D80F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoketeApp/Pods-BoketeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoketeApp/Pods-BoketeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoketeApp/Pods-BoketeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4FCEB88C243F2CF0006CD623 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FCEB8A82440AEF5006CD623 /* ShareViewController.swift in Sources */,
 				4FCEB898243F2CF0006CD623 /* ViewController.swift in Sources */,
 				4FCEB894243F2CF0006CD623 /* AppDelegate.swift in Sources */,
 				4FCEB896243F2CF0006CD623 /* SceneDelegate.swift in Sources */,
@@ -282,9 +370,11 @@
 		};
 		4FCEB8A5243F2CF0006CD623 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4ED24CEA24D1BC50CDA4DC5 /* Pods-BoketeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B2SJ38HJ9;
 				INFOPLIST_FILE = BoketeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,15 +383,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jumpei.BoketeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4FCEB8A6243F2CF0006CD623 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F34A1DC8A882CCE8A310B0 /* Pods-BoketeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B2SJ38HJ9;
 				INFOPLIST_FILE = BoketeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +402,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jumpei.BoketeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
