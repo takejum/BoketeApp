@@ -43,7 +43,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func getImages(keyword:String){
         
         //api key = 16009173-52b9a73c8104e15b27ffe987f
-        let url = "https://pixabay.com/api/?key=16009173-52b9a73c8104e15b27ffe987f&q=\(keyword)"
+        let url = "https://pixabay.com/api/?key="your api key"&q=\(keyword)"
         
         //call http request using Alomofire
         AF.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default).responseJSON { (response) in
